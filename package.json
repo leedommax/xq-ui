@@ -63,6 +63,11 @@
     "type": "git",
     "url": "https://github.com/leedommax/xq-ui.git"
   },
+  "bugs": {
+    "url": "https://github.com/leedommax/xq-ui/issues"
+  },
+  "main": "dist/xq-ui.js",
+  "license": "MIT",
   "files": [
     "dist",
     "packages"
