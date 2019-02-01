@@ -2,10 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import xqUI from '../dist/xq-ui.js'
-import '../packages/scss/index.scss'
-console.log(xqUI)
-
+import xqUI from '../packages/index.js'
+//import '../packages/scss/index.scss'
 Vue.use(xqUI)
 Vue.config.productionTip = false
 

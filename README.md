@@ -6,16 +6,12 @@
 
 ``` bash
 # install dependencies
-npm install
+npm install --save xq-ui
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+# how to use
+import 'xq-ui/dist/css/xq-ui.css'
+import xqui from 'xqui'
+Vue.use(xqui)
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
